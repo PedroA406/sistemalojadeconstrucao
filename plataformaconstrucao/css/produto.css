@@ -1,0 +1,64 @@
+/*
+    ESTILIZAÇÃO DA PÁGINA DE PRODUTOS
+*/
+.produtos{
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.card{
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card img{
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+.card h4{
+    text-align: center;
+    color: black;
+}
+
+.card h3{
+    text-align: center;
+    color: orange;
+}
+
+.produtos button{
+    display: block;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #d74400;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+fieldset{
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    color: #d74400;
+    border-color: #d74400;
+}
+
+legend{
+
+font-size: xx-large;
+}
+
+h1{
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
